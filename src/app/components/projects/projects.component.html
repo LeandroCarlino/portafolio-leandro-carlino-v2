@@ -1,0 +1,10 @@
+<section class="projects">
+    <h2>My Work</h2>
+    <p>Una colección de proyectos en los que he trabajado.</p>
+    <div class="project-cards">
+        <div class="card" *ngFor="let project of projects">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+        </div>
+    </div>
+</section>

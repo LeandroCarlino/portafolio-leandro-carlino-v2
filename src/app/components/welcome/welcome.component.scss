@@ -1,0 +1,24 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background: #1a1a2e;
+  }
+  
+  .welcome-content {
+    max-width: 50%;
+  }
+  
+  .welcome-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-content p {
+    font-size: 1.2rem;
+  }
+  
+  .welcome-image img {
+    max-width: 300px;
+  }
