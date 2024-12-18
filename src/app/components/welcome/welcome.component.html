@@ -1,6 +1,9 @@
 <header class="welcome">
     <div class="welcome-content">
-        <h1>Welcome.</h1>
+        <h1>
+            Bienvenid<span *ngIf="genderToggle">o.</span>
+            <span *ngIf="!genderToggle">a.</span>
+        </h1>
         <p>
             Mi nombre es Leandro Carlino, desarrollador frontend de Tucumán, Argentina.
             Trabajo creando interfaces limpias y funcionales que brindan una experiencia de usuario excelente.

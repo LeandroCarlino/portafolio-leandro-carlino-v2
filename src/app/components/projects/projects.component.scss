@@ -3,15 +3,15 @@
     padding: 3rem 1rem;
     background: #f0f0f0;
     color: #121212;
-}
 
-.projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
 
-.projects p {
-    margin-bottom: 2rem;
+    p {
+        margin-bottom: 2rem;
+    }
 }
 
 .project-cards {
@@ -32,4 +32,40 @@
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.habilities {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #f0f0f0;
+    color: #121212;
+
+    .habilities-flex {
+        justify-content: center;
+        display: flex;
+        div {
+            border: 1px solid black;
+            border-radius: 1em;
+            margin: 1em;
+        }
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    img {
+        cursor: pointer;
+        width: 4em;
+        margin: 1em;
+    }
+
+    img:hover {
+        filter: blur(1px);
+    }
 }
